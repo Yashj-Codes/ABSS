@@ -1,4 +1,4 @@
-# User Authentication using Biometric Features — Assignment 1
+# User Authentication using Biometric Features - Assignment 1
 
 **Course:** Advanced Biometric Systems and Security (AI461), DoAI, SVNIT
 **Dataset:** `biomet_data.csv` — 144-dim feature vectors, 100 users × 10 images
