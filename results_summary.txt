@@ -1,0 +1,22 @@
+======================================================================
+BIOMETRIC AUTHENTICATION — RESULTS SUMMARY
+======================================================================
+Users: 100 | Enrollment/user: 5 | Test/user: 5
+Genuine comparisons : 500
+Impostor comparisons: 49500
+
+--- Euclidean Distance ---
+  Genuine  mean=291.6160  std=135.4597
+  Impostor mean=703.8228  std=301.7918
+  EER  = 11.518%  (threshold = 429.2603)
+  Decidability Index d' = 1.7622
+
+--- Cosine Distance ---
+  Genuine  mean=0.9895  std=0.0110
+  Impostor mean=0.9604  std=0.0184
+  EER  = 8.371%  (threshold = 0.9790)
+  Decidability Index d' = 1.9259
+
+======================================================================
+CONCLUSION: Cosine Similarity gives the lower EER (8.371% vs 11.518%) and is the better matching criterion for this dataset.
+======================================================================
