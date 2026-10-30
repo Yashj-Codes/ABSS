@@ -4,8 +4,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-DATA_PATH = Path('biomet_data.csv')
-OUTPUT_DIR = Path('results')
+BASE_DIR = Path(__file__).resolve().parent
+DATA_PATH = BASE_DIR.parent / 'data' / 'biomet_data.csv'
+OUTPUT_DIR = BASE_DIR / 'results'
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 
