@@ -1,7 +1,7 @@
 import numpy as np
 from pathlib import Path
 
-p = Path('biomet_data.csv')
+p = Path(__file__).resolve().parents[1] / 'data' / 'biomet_data.csv'
 arr = np.loadtxt(p, delimiter=None)
 print('shape', arr.shape)
 print('dtype', arr.dtype)
